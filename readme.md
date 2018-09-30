@@ -4,6 +4,12 @@ Having had to rebuild my system this past weekend I thought I would document my 
 
 > Be kind to your future self
 
+## Prerequisites
+
+- 8GB USB Drive
+- OSX Mojave from the App Store
+- 🤞 Lots of patience
+
 ## My System Specs
 
 <img src="./hw.jpg" alt="Photo: so all my parts are finally in, time to get building!">
@@ -21,7 +27,9 @@ Hard to believe [this build is over 4years old][googleplus] and is still running
 
 [![Mojave USB Creation](http://img.youtube.com/vi/f5Nn9DE_O4o/0.jpg)](http://www.youtube.com/watch?v=f5Nn9DE_O4o)
 
-> Great video explaining the process
+<figcaption>
+  Great video explaining the process
+</figcaption>
 
 1. You will need to have a copy of Mojave from the App store.
 2. Format USB Drive to `MacOS Extended(Journaled)` and name it `USB`.
@@ -32,7 +40,37 @@ Hard to believe [this build is over 4years old][googleplus] and is still running
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/USB/
 ```
 
-## Step Two: Clover
+## Step Two: Clover Configuration
+
+Clover configuration is a two part process. You'll have to do it once on the USB Drive and then again on the install drive. [TechHowdy][techhowdy] has a great guide for this.
+
+### USB Drive Config
+
+1. [Download Clover EFI Bootloader][clover]
+2. Make sure your USB Drive is inserted.
+3. On the Destination Select tab, click on the option Change Install Location.
+4. Select the USB Flash Drive.
+5. Now on the Installation Type Tab Click on the Customize option. Select the option Install for UEFI booting only.
+6. Click on the Dropdown for Drivers64UEFI and Select the following options:
+
+![Clover](http://techhowdy.com/wp-content/uploads/2018/06/How-to-Create-bootable-USB-for-Hackintosh-Mojave-20.png)
+
+- AppleImageCodec-64.UEFI
+- AppleKeyAggregator-64.UEFI
+- AppleUITheme-64.UEFI
+- DataHubDxe-64.UEFI
+- FirmwareVolume-64.UEFI
+- FSInject-64.UEFI
+- SMCHelper-64.UEFI
+- VboxHfs-64.UEFI
+- Apfs
+- OsxAptioFix2Drv-64
+- PartitionDxe-64
+
+7. Once it is completed, you can close Clover Bootloader.
+
+### Copying Files to EFI partition on Hackintosh macOS Mojave USB Installer
+
 
 ## Step Three: Install
 
@@ -58,3 +96,5 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 [homebrewfonts]: https://github.com/Homebrew/homebrew-cask-fonts
 [googleplus]: https://plus.google.com/+FrankPigeon/posts/H5Cm7CXGwxs
 [buyersguide]: https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/
+[clover]: https://sourceforge.net/projects/cloverefiboot/
+[techhowdy]: http://techhowdy.com/process-to-install-hackintosh-macos-mojave/
