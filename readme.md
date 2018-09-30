@@ -15,10 +15,7 @@ Having had to rebuild my system this past weekend I thought I would document my 
 - Corsair CX500 Power Supply
 - 256 SSD and 1TB HD
 
-Hard to believe this build is ~4years old and is still running great.
-<a href="#" onClick="renderWidget();">Render the embedded post</a>
-
-<div id="widget-div"></div>
+Hard to believe [this build is over 4years old][googleplus] and is still running great.
 
 ## Step One: Bootable USB
 
@@ -46,13 +43,4 @@ Hard to believe this build is ~4years old and is still running great.
 [mojaveinstallguide]: http://techhowdy.com/process-to-install-hackintosh-macos-mojave/
 [alcsound]: https://www.reddit.com/r/hackintosh/comments/4e23w6/guide_native_audio_with_clover_applealckext/
 [homebrewfonts]: https://github.com/Homebrew/homebrew-cask-fonts
-
-<script src="https://apis.google.com/js/platform.js" async defer>
-    </script>
-<script>
-  {"parsetags": "explicit"}
-  function renderWidget() {
-    gapi.post.render("widget-div", {'href' : 'https://plus.google.com/+FrankPigeon/posts/H5Cm7CXGwxs'} );
-  }
-
-</script>
+[googleplus]: https://plus.google.com/+FrankPigeon/posts/H5Cm7CXGwxs
