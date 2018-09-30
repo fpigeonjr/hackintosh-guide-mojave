@@ -19,8 +19,7 @@ Hard to believe [this build is over 4years old][googleplus] and is still running
 
 ## Step One: Bootable USB
 
-<a href="https://www.youtube.com/embed/f5Nn9DE_O4o" target="_blank"><img src="https://youtu.be/f5Nn9DE_O4o/0.jpg" 
-alt="Mojave USB Create Tool" width="240" height="180" border="10" /></a>
+[![Mojave USB Creation](http://img.youtube.com/vi/f5Nn9DE_O4o/0.jpg)](http://www.youtube.com/watch?v=f5Nn9DE_O4o)
 
 1. You will need to have a copy of Mojave from the App store.
 
