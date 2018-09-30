@@ -15,13 +15,22 @@ Having had to rebuild my system this past weekend I thought I would document my 
 - Corsair CX500 Power Supply
 - 256 SSD and 1TB HD
 
-Hard to believe [this build is over 4years old][googleplus] and is still running great. Hackintosh's are kinda picky on hw so make sure you choose wisely. [Tonymacx86 Buyers Guide][buyersguide] is a great resource to choose from guaranteed working builds.
+Hard to believe [this build is over 4years old][googleplus] and is still running great. Hackintosh's are very picky on hw so make sure you choose wisely. [Tonymacx86 Buyers Guide][buyersguide] is a great resource to choose from guaranteed working builds.
 
 ## Step One: Bootable USB
 
 [![Mojave USB Creation](http://img.youtube.com/vi/f5Nn9DE_O4o/0.jpg)](http://www.youtube.com/watch?v=f5Nn9DE_O4o)
 
+> Great video explaining the process
+
 1. You will need to have a copy of Mojave from the App store.
+2. Format USB Drive to `MacOS Extended(Journaled)` and name it `USB`.
+   ![USB Creation](https://markwithtech.com/assets/files/2018-06-16/1529185565-56194-disk-utility-3.png)
+3. Open Terminal and run:
+
+```terminal
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/USB/
+```
 
 ## Step Two: Clover
 
