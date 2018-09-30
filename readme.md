@@ -12,7 +12,7 @@ Having had to rebuild my system this past weekend I thought I would document my 
 
 ## My System Specs
 
-<img src="./hw.jpg" alt="Photo: so all my parts are finally in, time to get building!">
+![All my parts are finally in, time to get building!](hw.jpg)
 
 - NZXT Tempest 210 case
 - GIGABYTE GA-Z87X-D3H motherboard
@@ -70,7 +70,12 @@ Clover configuration is a two part process. You'll have to do it once on the USB
 7. Once it is completed, you can close Clover Bootloader.
 
 ### Copying Files to EFI partition on Hackintosh macOS Mojave USB Installer
-
+1. Go to Finder and open mounted EFI. Now open the folder EFI > Clover > drivers64.
+1. Copy the [apfs.efi][apfs] file in `drivers64` and the `drivers64UEFI` folder.
+1. Now go back to the Clover folder and open the `kexts` folder.
+1. Open the `Other` Folder in kexts.
+1. Copy the [kexts][kextsLink] in the `Other` folder. 
+1. Now go back to Clover folder and Delete `config.plist` file and Paste the `config.plist` [file][emptyConfig].
 
 ## Step Three: Install
 
@@ -98,3 +103,6 @@ Clover configuration is a two part process. You'll have to do it once on the USB
 [buyersguide]: https://www.tonymacx86.com/buyersguide/building-a-customac-hackintosh-the-ultimate-buyers-guide/
 [clover]: https://sourceforge.net/projects/cloverefiboot/
 [techhowdy]: http://techhowdy.com/process-to-install-hackintosh-macos-mojave/
+[apfs]: https://drive.google.com/open?id=1Rwtarw3zTXAXsBP6a9Aadul84lNR4x1R
+[kextsLink]: https://drive.google.com/open?id=1cCO6xVnCuIPAQzBP4YQVnmZDNTevZJWE
+[emptyConfig]: https://drive.google.com/open?id=1C7ZITyMw41I2yc_RoZR3apoR3C8eud1K
