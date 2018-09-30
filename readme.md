@@ -6,7 +6,7 @@ Having had to rebuild my system this past weekend I thought I would document my 
 
 ## My System Specs
 
-<img src="https://lh3.googleusercontent.com/aLRw1hOkNE-yt0Nc6n6SPav-twSxZqzIP3eaghvp1-hOvOmtN_41OyEYCRSOB10G2hFti-a6aOacKQs=w2140-h2854-rw-no" jsname="tEADhd" style="max-width: 2140px; max-height: 2854px; width: 200px; height: auto;" alt="Photo: so all my parts are finally in, time to get building!">
+<img src="./hw.jpg" alt="Photo: so all my parts are finally in, time to get building!">
 
 - NZXT Tempest 210 case
 - GIGABYTE GA-Z87X-D3H motherboard
