@@ -123,7 +123,7 @@ brew cask install adobe-creative-cloud etcher font-inconsolata font-source-code-
 
 ### Terminal
 
-I use Iterm2 and [oh-my-zshell](https://github.com/andresteingress/oh-my-zsh) with [night owl iterm theme][nightowliterm].
+I use Iterm2 and [oh-my-zshell](https://github.com/robbyrussell/oh-my-zsh) with [night owl iterm theme][nightowliterm].
 
 ### Editor
 
