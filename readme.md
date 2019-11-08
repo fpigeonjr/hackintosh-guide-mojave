@@ -119,7 +119,10 @@ brew cask install adobe-creative-cloud etcher font-inconsolata font-source-code-
 
 [First Time Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 <br/>
+[vscode as default git editor](https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git)
+<br/>
 [Git configuration for use with Github and SSH](https://help.github.com/articles/connecting-to-github-with-ssh/).
+
 
 ### Terminal
 
